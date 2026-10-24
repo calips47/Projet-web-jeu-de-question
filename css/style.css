@@ -1,0 +1,29 @@
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.form-select {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.btn-primary {
+    width: 100px;
+    border-radius: 50px;
+}
+
+#pageLinks {
+    display: flex;
+    align-items: flex-end;
+    
+}
