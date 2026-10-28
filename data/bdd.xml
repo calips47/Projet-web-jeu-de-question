@@ -7,7 +7,7 @@
         <r1>Halffheim</r1>
         <r2>Asgard</r2>
         <r3>Jothuneim</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Asgard</bonne_reponse>
         <point>2</point> 
         <thematique>Nord</thematique>
     </question>
@@ -18,7 +18,7 @@
         <r1>Mjolnir</r1>
         <r2>Spartainix</r2>
         <r3>Bifrost</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>Bifrost</bonne_reponse>
         <point>2</point>
         <thematique>Architecture</thematique>
     </question>
@@ -29,7 +29,7 @@
         <r1>Odin</r1>
         <r2>Zeus</r2>
         <r3>Thor</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Odin</bonne_reponse>
         <point>2</point> 
         <thematique>Rois</thematique>
     </question>
@@ -40,7 +40,7 @@
         <r1>4</r1>
         <r2>1</r2>
         <r3>2</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>2</bonne_reponse>
         <point>4</point> 
         <thematique>Fils</thematique>
     </question>
@@ -51,7 +51,7 @@
         <r1>Thorkell</r1>
         <r2>Thor</r2>
         <r3>Loki</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Thor</bonne_reponse>
         <point>2</point> 
         <thematique>Fils</thematique>
     </question>
@@ -62,7 +62,7 @@
         <r1>Fenrir</r1>
         <r2>Sköll</r2>
         <r3>Hati</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Fenrir</bonne_reponse>
         <point>3</point> 
         <thematique>Créature</thematique>
     </question>
@@ -73,7 +73,7 @@
         <r1>Nídhögg</r1>
         <r2>Yggdrasil</r2>
         <r3>Midgard</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Yggdrasil</bonne_reponse>
         <point>2</point> 
         <thematique>Lieu</thematique>
     </question>
@@ -84,7 +84,7 @@
         <r1>Le Ragnarök</r1>
         <r2>Le Fimbulvetr</r2>
         <r3>Le Völuspá</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Ragnarök</bonne_reponse>
         <point>2</point> 
         <thematique>Événement</thematique>
     </question>
@@ -95,7 +95,7 @@
         <r1>Gungnir</r1>
         <r2>Gram</r2>
         <r3>Mjöllnir</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>Mjöllnir</bonne_reponse>
         <point>1</point> 
         <thematique>Objet</thematique>
     </question>
@@ -106,7 +106,7 @@
         <r1>Frigg</r1>
         <r2>Freyja</r2>
         <r3>Hel</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Freyja</bonne_reponse>
         <point>2</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -117,7 +117,7 @@
         <r1>Le Valhalla</r1>
         <r2>Le Helheim</r2>
         <r3>Le Niflheim</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Valhalla</bonne_reponse>
         <point>2</point> 
         <thematique>Lieu</thematique>
     </question>
@@ -128,7 +128,7 @@
         <r1>Heimdall</r1>
         <r2>Loki</r2>
         <r3>Baldr</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Heimdall</bonne_reponse>
         <point>3</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -139,7 +139,7 @@
         <r1>Apollon</r1>
         <r2>Poséidon</r2>
         <r3>Zeus</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>Zeus</bonne_reponse>
         <point>1</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -150,7 +150,7 @@
         <r1>Hadès</r1>
         <r2>Arès</r2>
         <r3>Hermès</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Hadès</bonne_reponse>
         <point>2</point>
         <thematique>Divinité</thematique>
     </question>
@@ -161,7 +161,7 @@
         <r1>10</r1>
         <r2>12</r2>
         <r3>15</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>12</bonne_reponse>
         <point>3</point> 
         <thematique>Événement</thematique>
     </question>
@@ -172,7 +172,7 @@
         <r1>La Chimère</r1>
         <r2>L'Hydre de Lerne</r2>
         <r3>Méduse</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>Méduse</bonne_reponse>
         <point>2</point> 
         <thematique>Créature</thematique>
     </question>
@@ -183,7 +183,7 @@
         <r1>Le Trident</r1>
         <r2>Le Foudre</r2>
         <r3>Le Caducée</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Trident</bonne_reponse>
         <point>2</point> 
         <thematique>Objet</thematique>
     </question>
@@ -194,7 +194,7 @@
         <r1>Aphrodite</r1>
         <r2>Athéna</r2>
         <r3>Artémis</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Athéna</bonne_reponse>
         <point>3</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -205,7 +205,7 @@
         <r1>Le Minotaure</r1>
         <r2>Le Centaure</r2>
         <r3>Le Sphinx</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Minotaure</bonne_reponse>
         <point>2</point> 
         <thematique>Créature</thematique>
     </question>
@@ -216,7 +216,7 @@
         <r1>Horus</r1>
         <r2>Râ</r2>
         <r3>Seth</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Râ</bonne_reponse>
         <point>1</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -227,7 +227,7 @@
         <r1>Anubis</r1>
         <r2>Thot</r2>
         <r3>Sobek</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Anubis</bonne_reponse>
         <point>2</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -238,7 +238,7 @@
         <r1>Le Djed</r1>
         <r2>L'Œil d'Horus</r2>
         <r3>L'Ânkh</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>L'Ânkh</bonne_reponse>
         <point>2</point> 
         <thematique>Symbole</thematique>
     </question>
@@ -249,7 +249,7 @@
         <r1>Le Sphinx</r1>
         <r2>Le Griffon</r2>
         <r3>L'Ammout</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Sphinx</bonne_reponse>
         <point>1</point> 
         <thematique>Créature</thematique>
     </question>
@@ -260,7 +260,7 @@
         <r1>Le Livre des Morts</r1>
         <r2>Le Papyrus d'Ani</r2>
         <r3>Les Textes des Sarcophages</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Le Livre des Morts</bonne_reponse>
         <point>3</point> 
         <thematique>Texte_Sacré</thematique>
     </question>
@@ -271,7 +271,7 @@
         <r1>Ptah</r1>
         <r2>Osiris</r2>
         <r3>Amon</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Osiris</bonne_reponse>
         <point>2</point> 
         <thematique>Légende</thematique>
     </question>
@@ -282,7 +282,7 @@
         <r1>Ammout</r1>
         <r2>Apophis</r2>
         <r3>Bès</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Ammout</bonne_reponse>
         <point>3</point> 
         <thematique>Créature</thematique>
     </question>
@@ -293,7 +293,7 @@
         <r1>Ouadjet</r1>
         <r2>Apophis</r2>
         <r3>Mehen</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Apophis</bonne_reponse>
         <point>3</point> 
         <thematique>Créature</thematique>
     </question>
@@ -304,7 +304,7 @@
         <r1>Râ</r1>
         <r2>Osiris</r2>
         <r3>Horus</r3>
-        <bonne_reponse>3</bonne_reponse>
+        <bonne_reponse>Horus</bonne_reponse>
         <point>2</point> 
         <thematique>Souverain</thematique>
     </question>
@@ -315,7 +315,7 @@
         <r1>Le temple de Karnak</r1>
         <r2>La Salle des deux Maât</r2>
         <r3>La Douât</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>La Salle des deux Maât</bonne_reponse>
         <point>3</point> 
         <thematique>Lieu</thematique>
     </question>
@@ -326,7 +326,7 @@
         <r1>Amaterasu</r1>
         <r2>Izanami</r2>
         <r3>Tsukuyomi</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Amaterasu</bonne_reponse>
         <point>2</point> 
         <thematique>Divinité</thematique>
     </question>
@@ -337,7 +337,7 @@
         <r1>Les Yokai</r1>
         <r2>Les Kami</r2>
         <r3>Les Oni</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Les Kami</bonne_reponse>
         <point>1</point> 
         <thematique>Esprit</thematique>
     </question>
@@ -348,7 +348,7 @@
         <r1>Kitsune</r1>
         <r2>Tengu</r2>
         <r3>Tanuki</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Kitsune</bonne_reponse>
         <point>2</point> 
         <thematique>Créature</thematique>
     </question>
@@ -359,7 +359,7 @@
         <r1>Ryujin</r1>
         <r2>Yamata no Orochi</r2>
         <r3>Mizuchi</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Yamata no Orochi</bonne_reponse>
         <point>3</point> 
         <thematique>Créature</thematique>
     </question>
@@ -370,7 +370,7 @@
         <r1>Yomi</r1>
         <r2>Takamagahara</r2>
         <r3>Jigoku</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Yomi</bonne_reponse>
         <point>3</point> 
         <thematique>Lieu</thematique>
     </question>
@@ -381,7 +381,7 @@
         <r1>Torii</r1>
         <r2>Pagode</r2>
         <r3>Honden</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Torii</bonne_reponse>
         <point>1</point> 
         <thematique>Architecture</thematique>
     </question>
@@ -392,7 +392,7 @@
         <r1>Oni</r1>
         <r2>Kappa</r2>
         <r3>Shinigami</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Kappa</bonne_reponse>
         <point>2</point> 
         <thematique>Créature</thematique>
     </question>
@@ -403,7 +403,7 @@
         <r1>Kusanagi</r1>
         <r2>Masamune</r2>
         <r3>Muramasa</r3>
-        <bonne_reponse>1</bonne_reponse>
+        <bonne_reponse>Kusanagi</bonne_reponse>
         <point>3</point> 
         <thematique>Objet</thematique>
     </question>
@@ -414,7 +414,7 @@
         <r1>Susanoo</r1>
         <r2>Izanagi</r2>
         <r3>Hachiman</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Izanagi</bonne_reponse>
         <point>3</point> 
         <thematique>Légende</thematique>
     </question>
@@ -425,7 +425,7 @@
         <r1>Empereur Meiji</r1>
         <r2>Empereur Jinmu</r2>
         <r3>Oda Nobunaga</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Empereur Jinmu</bonne_reponse>
         <point>3</point> 
         <thematique>Souverain</thematique>
     </question>
@@ -436,7 +436,7 @@
         <r1>Gandalf</r1>
         <r2>Merlin</r2>
         <r3>Lancelot</r3>
-        <bonne_reponse>2</bonne_reponse>
+        <bonne_reponse>Merlin</bonne_reponse>
         <point>1</point> 
         <thematique>Personnage</thematique>
     </question>
