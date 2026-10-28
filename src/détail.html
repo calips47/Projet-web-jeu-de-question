@@ -2,12 +2,36 @@
 <html>
     <head>
         <title>Détail des Questions</title>
+        <link rel="stylesheet" href="../css/styleDetail.css">
     </head>
-    <body>
+    <body onload="loadXMLDoc()">
         <table>
             <tr>
-                <td></td>
+                <td>Questions </td>
+                <td>:</td>
+                <td><p id="question"></p></td>
+            </tr>
+            <tr>
+                <td>Thématique </td>
+                <td>:</td>
+                <td><input type="text" id="theme" readonly></td>
+            </tr>
+            <tr>
+                <td>Réponse </td>
+                <td>:</td>
+                <td><input type="text" id="reponse" readonly></td>
+            </tr>
+            <tr>
+                <td>Point</td>
+                <td>:</td>
+                <td><input type="" value="" readonly placeholder id="point"></td>
+            </tr>
+            <tr>
+                <td>A propos</td>
+                <td>:</td>
+                <td><p id="detail"></p></td>
             </tr>
         </table>
+        <script src="../js/detail.js"></script>
     </body>
 </html>
