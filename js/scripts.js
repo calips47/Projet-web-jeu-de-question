@@ -96,7 +96,7 @@ function showPageLinks() {
         pageLinks += "<input type='button' onclick='loadPage(" + (i-1)
         +")' value='"+i+"'>";
     }
-    let divpl = document.getElementById("pageLinks");
+    /*let divpl = document.getElementById("pageLinks");
     divpl.style.display = "block";    
-    divpl.innerHTML = pageLinks;
+    divpl.innerHTML = pageLinks;*/
 }
