@@ -1,9 +1,8 @@
 let xmlhttp = new XMLHttpRequest();
-let table = "";    
 let nbPage = 0; 
 let startIndex = 0; 
 let endIndex = 0;
-let pageSize = 5; 
+let pageSize = 10; 
 let page = 0; 
 
 function loadXMLDoc() {
@@ -32,40 +31,44 @@ function loadPage(pageNumber) {
     page = pageNumber;
     startIndex = (page*pageSize);
     endIndex = startIndex+pageSize;    
-    displayDataTable(startIndex, endIndex);
+    displayDataTable();
 } 
 
 function affiche(i,x){
-    table += "<tr>" 
+    let tab=""; 
+    tab += "<tr>" 
         + "<td>" 
         + x[i].getElementsByTagName("id")[0].textContent 
         + "</td>" 
         + "<td>" 
         + x[i].getElementsByTagName("contenu")[0].textContent 
         + "</td>" 
-        + "<td>" +"<ol>"
-        + "<li>"+x[i].getElementsByTagName("r1")[0].textContent+"</li>"
-        + "<li>"+x[i].getElementsByTagName("r2")[0].textContent+"</li>"
-        + "<li>"+x[i].getElementsByTagName("r3")[0].textContent +"</li>"
-        + "</td>" +"</ol>"
-        +"<td>"
-        + "<a href='src/détail.html?id="
-        + x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue
-        + "'>Details</a>"
-        +"</td>"
         + "</tr>";
+    return tab;
 }
 
 function displayDataTable() {
     let i; 
     let xmlDoc = xmlhttp.responseXML;    
     let x = xmlDoc.getElementsByTagName("question");
-    table = "<tr><th>ID</th><th>Question</th><th>Answers</th><th></th></tr>";    
+    let tab1 = "<tr><th>ID</th><th>Question</th></th></tr>"; 
+    let tab2 = "<tr><th>ID</th><th>Question</th></th></tr>";
+    let tab3 = "<tr><th>ID</th><th>Question</th></th></tr>";
+    let tab4 = "<tr><th>ID</th><th>Question</th></th></tr>";
+    
 
     for (i = startIndex; i < endIndex; i++) {        
-        affiche(i, x);
-        document.getElementById("data").innerHTML = table;
+        tab1 += affiche(i,x);
+        tab2 += affiche(i+10,x);
+        tab3 += affiche(i+20,x);
+        tab4 += affiche(i+30,x);
     }
+    
+    document.getElementById("1").innerHTML = tab1;
+    document.getElementById("2").innerHTML = tab2;
+    document.getElementById("3").innerHTML = tab3;
+    document.getElementById("4").innerHTML = tab4;
+
 }   
 
 function filterDataTable() {
@@ -74,7 +77,7 @@ function filterDataTable() {
     let x = xmlDoc.getElementsByTagName("question");
     let slThematique = document.getElementById("thematique");
     let theme = slThematique.options[slThematique.selectedIndex].value;
-    table ="<tr><th>ID</th><th>Question</th><th>Answers</th><th></th></tr>";    
+    table ="<tr><th>ID</th><th>Question</th></tr>";    
         
     for (i = 0; i < x.length; i++) {    
         if(theme ==='Tout'){
