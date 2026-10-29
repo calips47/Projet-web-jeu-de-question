@@ -3,7 +3,7 @@ let table = "";
 let nbPage = 0; 
 let startIndex = 0; 
 let endIndex = 0;
-let pageSize = 5; 
+let pageSize = 7; 
 let page = 0; 
 
 function loadXMLDoc() {
@@ -24,15 +24,20 @@ function loadData() {
 function computeNbPage (){
     let xmlDoc = xmlhttp.responseXML;  
     let x = xmlDoc.getElementsByTagName("question");
-    nbPage = x.length/pageSize;
+    nbPage = Math.ceil(x.length/pageSize);
     
 }
 
 function loadPage(pageNumber) {
+    let xmlDoc = xmlhttp.responseXML;  
+    let x = xmlDoc.getElementsByTagName("question");
     page = pageNumber;
     startIndex = (page*pageSize);
     endIndex = startIndex+pageSize;    
-    displayDataTable(startIndex, endIndex);
+    if(endIndex-startIndex <pageSize){
+        endIndex = x.length;
+    }
+    displayDataTable();
 } 
 
 function affiche(i,x){
